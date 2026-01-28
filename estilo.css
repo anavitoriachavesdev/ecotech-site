@@ -1,0 +1,120 @@
+ /* RESET */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f5;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        /* HEADER */
+        header {
+            background: #ffffff;
+            border-bottom: 2px solid #2e8b57;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #222;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #2e8b57;
+        }
+
+        /* MAIN */
+        main {
+            max-width: 1100px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        section {
+            margin-bottom: 80px;
+        }
+
+        /* HERO */
+        .hero {
+            text-align: center;
+        }
+
+        .hero img {
+            width: 140px;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            color: #1f5f3b;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            max-width: 800px;
+            margin: 10px auto;
+            color: #555;
+        }
+
+        /* SOBRE */
+        .sobre img {
+            width: 160px;
+            display: block;
+            margin: 30px auto;
+        }
+
+        /* CARDS */
+        .cards {
+            display: grid;
+            gap: 20px;
+        }
+
+        .card {
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+
+        .card img {
+            width: 80px;
+            margin-bottom: 15px;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #1f5f3b;
+            color: #ffffff;
+            text-align: center;
+            padding: 25px;
+            font-size: 0.9rem;
+        }
+
+        /* RESPONSIVO */
+        @media (min-width: 768px) {
+            .cards {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
