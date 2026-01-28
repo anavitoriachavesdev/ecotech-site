@@ -23,6 +23,3 @@ Criado por **Ana Vitória Chaves**, o site simula uma empresa moderna de tecnolo
 - ✅ Cards ilustrativos para apresentar serviços  
 - ✅ Logo e favicon integrados  
 - ✅ Responsivo para diferentes tamanhos de tela  
-
-## 🔹 Estrutura de arquivos
-
